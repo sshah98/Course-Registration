@@ -34,6 +34,9 @@ if you do not have it
 * Change directory to where Course-Registration-master is: i.e:
 `cd Downloads/Couse-Registration-master`
 
+* Install pip if not installed
+`sudo apt-get install python-setuptools`
+
 * Install the necessary pip packages
 `pip install -r requirements.txt`
 
