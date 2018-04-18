@@ -39,3 +39,17 @@ if you do not have it
 
 * Run the python script in your terminal
 `python registration.py`
+
+### Things to Note:
+
+* If you want to add more CRNS add this after the last CRN: `mydriver.find_element_by_id("crn_id6").send_keys(crn6)`
+* After the above statement, in the bottom, add:
+`crn6 = '666666'`
+
+* If you want less CRNS, simply delete the ones you do not want
+
+* YOU MUST CLICK THE SUBMIT BUTTON BEFORE **SEMESTER YEAR** (ex: **Fall 2018**) 
+![](image.png?raw=true)
+
+* Feel free to contact me with any questions or submit an issue!
+
