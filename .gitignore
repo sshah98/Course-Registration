@@ -1,6 +1,6 @@
 /venv
 geckodriver.log
-
+chromedriver
 
 # Created by https://www.gitignore.io/api/python,
 

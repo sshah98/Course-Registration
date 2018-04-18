@@ -65,11 +65,11 @@ class Registration(object):
         mydriver.send_keys(Keys.TAB)
         
             
-crn1 = '111111'
-crn2 = '222222'
-crn3 = '333333'
-crn4 = '444444'
-crn5 = '555555'
+crn1 = '24415'
+crn2 = '22962'
+crn3 = '24414'
+crn4 = '24744'
+crn5 = '22516'
 
 myuser = input('Enter GWID: ')
 mypass = getpass.getpass('Enter password: ')
