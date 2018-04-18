@@ -28,9 +28,6 @@ if you do not have it
 * Source the environment
 `source env/bin/activate`
 
-* Install the necessary pip packages
-`pip install -r requirements.txt`
-
 ### Run:
 * Open up `terminal` in finder or searchbar
 
