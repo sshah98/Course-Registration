@@ -34,6 +34,11 @@ if you do not have it
 * Change directory to where Course-Registration-master is: i.e:
 `cd Downloads/Couse-Registration-master`
 
+* Locate current directory:
+`pwd`
+
+* Inside `registration.py` change `chromedriver = path/of/chromedriver`
+
 * Install pip if not installed
 `sudo apt-get install python-setuptools`
 

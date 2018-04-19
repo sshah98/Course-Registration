@@ -6,6 +6,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
+chromedriver = "path/to/chromedriver"
+
 
 class Registration(object):
 
@@ -16,12 +18,11 @@ class Registration(object):
 
     def loginToAccount(self):
         baseurl = 'https://banweb.gwu.edu/PRODCartridge/twbkwbis.P_WWWLogin'
-        options = Options()
-        options.add_argument('--disable-gpu')
-        options.add_argument("--disable-extensions")
-        options.add_experimental_option("detach", True)
-        mydriver = webdriver.Chrome(
-            executable_path='chromedriver', chrome_options=options)
+        # options = Options()
+        # options.add_argument('--disable-gpu')
+        # options.add_argument("--disable-extensions")
+        # options.add_experimental_option("detach", True)
+        mydriver = webdriver.Chrome(chromedriver)
         mydriver.get(baseurl)
         actions = ActionChains(mydriver)
 
